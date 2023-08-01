@@ -17,7 +17,7 @@ para_button.addEventListener('click', onClick_para);
 let img_div = document.getElementById('img-div');
 function onClick_img() {
     let newImg = document.createElement('img')
-    newImg.src = '/image/thumbs-up.png';
+    newImg.src = './image/thumbs-up.png';
     img_div.appendChild(newImg);  
     p_div.style.display = 'none';
     img_div.style.display = 'block';
